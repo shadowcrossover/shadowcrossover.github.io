@@ -54,7 +54,6 @@ h1 {
 
 th, tr, td {
     border: solid 1px white;
-    color: white;
 }
 .logo {
     width: 40px;
@@ -73,6 +72,8 @@ th, tr, td {
 	border: var (--clr-neon) 0.125em solid;
 	padding: 0.25em 1em;
 	border-radius: 0.25em;
+	
+	text-shadow: currentColor ;
 }
 
 
