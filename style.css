@@ -9,6 +9,7 @@
 body {
     min-height: 100vh;
 	display: grid;
+	place-items: center;
 	background: var(--clr-bg);
 	font-family: "Balsamiq Sans", cursive;
 	color: var(--clr-neon);
@@ -35,12 +36,7 @@ body {
     width: 200px;
 }
 
-.alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
+
 
 table {
     border: 2px solid white;
@@ -62,7 +58,7 @@ th, tr, td {
   }
 
 .neon-button{
-	font-size: 2rem;
+	font-size: 1rem;
 	
 	color: var(--clr-neon);
 	display: inline-block;
