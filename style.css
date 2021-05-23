@@ -1,19 +1,15 @@
 * {
     text-align: center;
 }
-:root {
-	--clr-neon: hsl(317 100% 54%);
-	--clr-bg: hsl(323 21% 16%);
-}
 
 body {
+    font-family: 'Balsamiq Sans', cursive;
     min-height: 400px;
-	display: grid;
-	place-items: center;
-	background: var(--clr-bg);
-	font-family: "Balsamiq Sans", cursive;
-	color: var(--clr-neon);
-	padding-right: 10rem;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png%27);
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 table {
