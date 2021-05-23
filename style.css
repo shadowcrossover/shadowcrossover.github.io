@@ -7,13 +7,13 @@
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
-    min-height: 400px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');
-    background-color: #111;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    min-height: 100vh;
+	display: grid;
+	place-items: center;
+	background: var(--clr-bg);
+	font-family: "Balsamiq Sans", cursive;
+	color: var(--clr-neon);
+	padding-right: 10rem;
 }
 
 .container {
