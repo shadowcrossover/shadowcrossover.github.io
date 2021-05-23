@@ -1,6 +1,10 @@
 * {
     text-align: center;
 }
+:root {
+	--clr-neon: hsl(317 100% 54%);
+	--clr-bg: hsl(323 21% 16%);
+}
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -58,3 +62,15 @@ th, tr, td {
     top: 10px;
     right:10px;
   }
+
+.neon-button{
+	color: var(--clr-neon);
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+
+
