@@ -64,10 +64,15 @@ th, tr, td {
   }
 
 .neon-button{
+	font-size: 2rem;
+	
 	color: var(--clr-neon);
 	display: inline-block;
 	cursor: pointer;
 	text-decoration: none;
+	border: var (--clr-neon) 0.125em solid;
+	padding: 0.25em 1em;
+	border-radius: 0.25em;
 }
 
 
